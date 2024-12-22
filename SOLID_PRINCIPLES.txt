@@ -1,0 +1,27 @@
+S : Single Responsibility Principle
+
+- Class should have only one reason (i.e., not multiple APIs/methods with different purpose) to change
+
+O : Open / Closed Principle
+
+- Class is open for extension but closed for modification
+
+L : Linkov Substitution Principle
+
+- If B inherits A, then code should not break when any instances of A is replace by B (not just B but any such child class) (i.e., B should always extend the capability of A and not limit it)
+
+I : Interface Segmented Principle
+
+- Divide interfaces to such granularity that the clients (sub class / child class) don't have to implement unnecessary methods/functions
+
+D : Dependency Inversion Principle
+
+- classes should depend on interfaces rather than concrete classes
+
+Benefits:
+
+- Avoids code duplication
+- Easy to understand
+- Easy to maintain
+- Flexible service / software
+- Reduces complexity
